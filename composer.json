@@ -1,0 +1,24 @@
+{
+  "name": "pietrodellanotte/php-mentoring",
+  "description": "Exercise Project on PHP/OOP",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PhpMentoring\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Pietro Della Notte",
+      "email": "pdellanotte@gmail.com"
+    }
+  ],
+  "require": {
+    "tracy/tracy": "^2.9",
+    "php": ">=7.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
