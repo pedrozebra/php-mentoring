@@ -4,7 +4,7 @@ use PhpMentoring\Classes\Product;
 use PhpMentoring\Classes\Category;
 use PHPUnit\Framework\TestCase;
 
-class ProductTest extends TestCase
+final class ProductTest extends TestCase
 {
     public function testClassConstructor()
     {
